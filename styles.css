@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+.hero {
+    display: flex;
+    justify-content: space-between; /* Pushes image to left and text to right */
+    align-items: center;            /* Vertically centers the content */
+    width: 100%;
+    height: 80vh;                   /* Sets a substantial height for the hero */
+}
+
+img {
+    width: 70%;                     /* Occupies most of the left side */
+    height: 100%;
+    object-fit: cover;              /* Clips image to fit without stretching */
+}
+
+.content {
+    width: 30%;                     /* Occupies the right side */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.explore-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #e60023;       /* Pinterest Brand Red */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;             /* Rounded "pill" shape */
+}
